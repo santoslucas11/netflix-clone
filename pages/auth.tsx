@@ -1,8 +1,9 @@
 import React, { useCallback, useState } from "react";
-import Input from "@/components/Input/Input";
+
 import axios from "axios";
-import { signIn } from "next-auth/react";
 import { useRouter } from "next/router";
+import { signIn } from "next-auth/react";
+import Input from "@/components/Input/Input";
 
 const Auth = () => {
   const router = useRouter();
